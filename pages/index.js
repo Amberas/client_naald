@@ -34,7 +34,7 @@ export default function Home({articles}) {
 }
 
 export async function getStaticProps(context) {
-  const res = await fetch({NEXT_PUBLIC_API_ENDPOINT})
+  const res = await fetch(process.env.STRAPI_API)
   const articles = await res.json()
 
   if (!articles) {
