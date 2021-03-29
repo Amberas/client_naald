@@ -2,8 +2,6 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Cards from '../components/Cards'
 import Layout from '../components/Layout'
-import NEXT_PUBLIC_API_ENDPOINT from '../env'
-
 
 export default function Home({articles}) {
   return (
