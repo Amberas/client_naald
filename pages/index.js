@@ -15,7 +15,7 @@ export default function Home({articles}) {
       </header>
       <main className={styles.main}>
         <div className={styles.grid}>
-          <Cards articles={articles} />
+         <Cards articles={articles} />
         </div>
       </main>
 
