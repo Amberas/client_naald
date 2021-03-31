@@ -7,7 +7,7 @@ const Cards = ({ articles }) => (
             <Link href={`/articles/${article.slug}`}>  
             <a key={article.slug} className={styles.card}>
                 <h3>{article.title}</h3>
-                <p >{article.description}</p>
+                    <p>{article.description}</p>
             </a> 
             </Link>
         </>
